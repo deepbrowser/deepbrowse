@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Type checking
+.mypy_cache/
+.pyright/
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+*.log
+*.sqlite
+*.db
+
+# Cache directories
+.ruff_cache/
+.uv/
+
+# Cursor rules
+.cursor/
+
+
+# uv.lock
+uv.lock
